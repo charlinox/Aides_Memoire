@@ -25,3 +25,7 @@ print("\trenvoi -> 'Dépôt Git vide initialisé dans /chemin/du/dossier/courant
 print("\tEN -> 'Initialized empty Git repository in /road/of/the/folder/'")
 print(" ")
 print("git add nom_du_fichier --> ajoute le fichier à l'index et dit à Git de se souvenir du fichier ainsi que des modifications dans l'index Git")
+print(" ")
+print("git commit [options] --> enregistre la suite des modifications, accompagné d'un message")
+print("\t[options] : ")
+print("\t-m -> lie(/lier) un message au commit !!!IMPORTANT TOUJOURS FAIRE UN MESSAGE AVEC -m !!! (exemple: git commit -m ''Ajout de fichier''")
