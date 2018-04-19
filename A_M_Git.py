@@ -30,3 +30,7 @@ print("git commit [options] --> enregistre la suite des modifications, accompagn
 print("\t[options] : ")
 print("\t-m -> lie(/lier) un message au commit !!!IMPORTANT TOUJOURS FAIRE UN MESSAGE AVEC -m !!! (exemple: git commit -m ''Ajout de fichier''")
 print("\t-a -> tous les fichiers qui sont déjà dans l'index rajoute les si ils ont des modifications (cette option évite de faire 'git add' et peut s'utiliser comme ceci; git commit -a -m ''commentaire'')")
+print(" ")
+print("git checkout --> se positionne sur le commit sélectionné/voulu grâce au sha")
+print(" ")
+print("git checkout master --> revenir sur le dernier commit éffectué")
