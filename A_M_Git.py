@@ -7,7 +7,10 @@ Comment: Aide Mémoire pour utiliser Git corrctement
 Create By: GRENAILLE Florent (riderflo85) (DevOne)
 """
 
-print("\t\tCommandes de base: ")
+print(" ")
+print("\t\tAide Mémoire Pour Utiliser Git")
+print(" ")
+print("\tCommandes de base: ")
 print(" ")
 print("git status --> voir l'état de Git DANS le répertoire courant")
 print("\trenvoi n°1 -> 'fatal: ni ceci ni aucun de ses répertoires parents n'est un dépôt git .git'")
@@ -34,3 +37,5 @@ print(" ")
 print("git checkout --> se positionne sur le commit sélectionné/voulu grâce au sha")
 print(" ")
 print("git checkout master --> revenir sur le dernier commit éffectué")
+print(" ")
+print("git clone --> clone/télécharge un code/projet/repository de github.com sur la machine/l'ordi courrant, pour pouvoir le modifié")
