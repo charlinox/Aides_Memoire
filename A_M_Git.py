@@ -65,4 +65,5 @@ print("\tgit show le_n°_sha > infos: le n° sha peut être celui du log ou celu
 print(" ")
 print("\t!!!IMPORTANT!!!\nLa commande qui suit est très importante pour une question de sécurité car il est important de ne pas versionner et ne pas suivre à l'aide de git, des fichiers de configuration, de mot de passe, de clé de cryptage....")
 print("Cette commande n'est pas une commande git directement. C'est un fichier a créer et à nommé .gitignore. Dans se fichier doit être inscrit le nom des fichiers a ignorer par git ainsi que le chemin du fichier/répertoire si celui se trouve dans des répêrtoires qui succède la racine du répertoire initialise de git (git init)")
+print("Le fichier .gitignore doit être suivie/tracker en l'ajoutant à l'index de git (git add .gitignore && git commit -a -m 'message_commit')")
 print(" ")
