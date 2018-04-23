@@ -36,7 +36,7 @@ print("\t-a -> tous les fichiers qui sont déjà dans l'index rajoute les si ils
 print(" ")
 print("git checkout --> se positionne sur le commit sélectionné/voulu grâce au sha")
 print(" ")
-print("git checkout master --> reviens sur la branch master")
+print("git checkout master --> reviens sur la branch master / reviens sur le dernier commit")
 print(" ")
 print("git clone --> clone/télécharge un code/projet/repository de github.com sur la machine/l'ordi courrant, pour pouvoir le modifié")
 print(" ")
