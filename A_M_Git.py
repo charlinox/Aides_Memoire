@@ -61,4 +61,4 @@ print("git blame --> liste toute les modifications qui ont été faites en indiq
 print("\tgit blame nom_du_fichier")
 print(" ")
 print("git show --> voir le contenu exact d'un commit")
-print("git show le_n°_sha > infos: le n° sha peut être celui du log ou celui de git blame")
+print("\tgit show le_n°_sha > infos: le n° sha peut être celui du log ou celui de git blame")
