@@ -67,3 +67,7 @@ print("\t!!!IMPORTANT!!!\nLa commande qui suit est très importante pour une que
 print("Cette commande n'est pas une commande git directement. C'est un fichier a créer et à nommé .gitignore. Dans se fichier doit être inscrit le nom des fichiers a ignorer par git ainsi que le chemin du fichier/répertoire si celui se trouve dans des répêrtoires qui succède la racine du répertoire initialise de git (git init)")
 print("Le fichier .gitignore doit être suivie/tracker en l'ajoutant à l'index de git (git add .gitignore && git commit -a -m 'message_commit')")
 print(" ")
+print("git stash --> mettre de côter les modifications apporter à un fichier pour y revenir plus tard")
+print(" ")
+print("git stash pop --> récupération des modifications enregistrer dans le stash")
+print(" ")
