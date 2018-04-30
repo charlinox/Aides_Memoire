@@ -6,13 +6,14 @@ Date: 19/03/2018
 Create by: Florent
 """
 
-print("Types Standards: ")
+print("Types D'Objet Standards: ")
 print("\tentier numérique (int)")
-print("\tnombre flottant (float)")
+print("\tnombre flottant: nombre décimal (float)")
 print("\tchaîne de caractères (str)")
-print("\tbooléen (bool)")
+print("\tbooléen: valeur vrai ou faux | true/false (bool)")
 print("\tliste/tableau (list)")
 print("\tliste qui contient des éléments non modifiable après leur créations (tuple)")
+print("\tdictionnaire: c'est un ensemble de valeur auquel on peut accéder grâce à d'autre objet (dict)")
 print(" ")
 print("Fonctions Standards")
 print("\tprint() -> affiche a l'écran")
@@ -31,3 +32,6 @@ print("\tPour déclarer une liste/tableau (list)\n\t-> nom_de_la_variable = [''e
 print(" ")
 print("\tPour déclarer une liste tuple (tuple)\n\t-> nom_de_la_variable = (''element'', ''non'', ''modifiable'') (ex: paris = (48.856578, 2.351828) )")
 print(" ")
+print("\tPour déclarer un  dictionnaire (dict)\n\t-> nom_de_la_variable = {''clé'': ''valeur'', ''new_clé'': ''new_valeur''} (ex: dico_fr_en = {''un'': ''one'', ''deux'': ''two''})\n\t-> pour retrouver/afficher la valeur voulu dans le dictionnaire on utilise la clé (ex: dico_fr_en[''un''] ->  retournera 'one')")
+print(" ")
+print("\tATTENTION LORS DE LA DÊCLARATION DE LIST/TUPLE/DICT A L'ORTHOGRAPHE EN FONCTION DU TYPE D'OBJET (str, int, float...) \nLE TYPE 'str' DOIT ETRE DÊCLARER AVEC DES GUIELLEMETS DOUBLE\n LE TYPE 'int' ET 'float' NE NECESSITE PAS DE GUIELLEMETS")
