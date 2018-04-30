@@ -38,5 +38,7 @@ print("\t\tATTENTION LORS DE LA DECLARATION DE LIST/TUPLE/DICT A L'ORTHOGRAPHE E
 print(" ")
 print("Opérateur logique")
 print("\tif -> si\n\tif condition_à_vérifier opérateur_mathématique valeur: (ex: if age == 18:)")
+print(" ")
 print("\telse -> sinon\n\tsi la condition if n'est pas valider alors else (ex: else:)")
+print(" ")
 print("\telif -> sinon si\n\tsi la condition if n'est pas  valider alors sinon si (ex: elif un == one:)")
