@@ -6,7 +6,7 @@ Date: 19/03/2018
 Create by: Florent
 """
 
-print("Types D'Objet Standards: ")
+print("Types D'Objet Standards")
 print("\tentier numérique (int)")
 print("\tnombre flottant: nombre décimal (float)")
 print("\tchaîne de caractères (str)")
@@ -35,3 +35,8 @@ print(" ")
 print("\tPour déclarer un  dictionnaire (dict)\n\t-> nom_de_la_variable = {''clé'': ''valeur'', ''new_clé'': ''new_valeur''} (ex: dico_fr_en = {''un'': ''one'', ''deux'': ''two''})\n\t-> pour retrouver/afficher la valeur voulu dans le dictionnaire on utilise la clé (ex: dico_fr_en[''un''] ->  retournera 'one')")
 print(" ")
 print("\t\tATTENTION LORS DE LA DECLARATION DE LIST/TUPLE/DICT A L'ORTHOGRAPHE EN FONCTION DU TYPE D'OBJET (str, int, float...) \nLE TYPE 'str' DOIT ETRE DECLARER AVEC DES GUIELLEMETS DOUBLE | LE TYPE 'int' ET 'float' NE NECESSITE PAS DE GUIELLEMETS")
+print(" ")
+print("Opérateur logique")
+print("\tif -> si\n\tif condition_à_vérifier opérateur_mathématique valeur: (ex: if age == 18:)")
+print("\telse -> sinon\n\tsi la condition if n'est pas valider alors else (ex: else:)")
+print("\telif -> sinon si\n\tsi la condition if n'est pas  valider alors sinon si (ex: elif un == one:)")
