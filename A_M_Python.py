@@ -16,7 +16,7 @@ print("\tliste qui contient des éléments non modifiable après leur créations
 print("\tdictionnaire: c'est un ensemble de valeur auquel on peut accéder grâce à d'autre objet (dict)")
 print(" ")
 print("Fonctions Standards")
-print("\tprint() -> affiche a l'écran")
+print("\tprint('' '') -> affiche a l'écran")
 print("\tinput() -> lire les entrées clavier")
 print("\ttype() -> retourne le type d'une donnée, variable, etc...")
 print("\tint(), float(), str(), bool() -> caster, convertir une donnée, variable...")
