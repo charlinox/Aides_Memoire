@@ -34,4 +34,4 @@ print("\tPour déclarer une liste tuple (tuple)\n\t-> nom_de_la_variable = (''el
 print(" ")
 print("\tPour déclarer un  dictionnaire (dict)\n\t-> nom_de_la_variable = {''clé'': ''valeur'', ''new_clé'': ''new_valeur''} (ex: dico_fr_en = {''un'': ''one'', ''deux'': ''two''})\n\t-> pour retrouver/afficher la valeur voulu dans le dictionnaire on utilise la clé (ex: dico_fr_en[''un''] ->  retournera 'one')")
 print(" ")
-print("\tATTENTION LORS DE LA DÊCLARATION DE LIST/TUPLE/DICT A L'ORTHOGRAPHE EN FONCTION DU TYPE D'OBJET (str, int, float...) \nLE TYPE 'str' DOIT ETRE DÊCLARER AVEC DES GUIELLEMETS DOUBLE\n LE TYPE 'int' ET 'float' NE NECESSITE PAS DE GUIELLEMETS")
+print("\t\tATTENTION LORS DE LA DÊCLARATION DE LIST/TUPLE/DICT A L'ORTHOGRAPHE EN FONCTION DU TYPE D'OBJET (str, int, float...) \nLE TYPE 'str' DOIT ETRE DÊCLARER AVEC DES GUIELLEMETS DOUBLE | LE TYPE 'int' ET 'float' NE NECESSITE PAS DE GUIELLEMETS")
