@@ -17,7 +17,7 @@ print("\tdictionnaire: c'est un ensemble de valeur auquel on peut accéder grâc
 print(" ")
 print("Fonctions Standards")
 print("\tprint('' '') -> affiche a l'écran")
-print("\tinput() -> lire les entrées clavier !!! ATTENTION input() STOCK LES ENTREES CLAVIER UNIQUEMENT EN CHAINE DE CARACTERE !!!\n\t-> ex: prénom = input()")
+print("\tinput() -> lire les entrées clavier !!! ATTENTION input() STOCK LES ENTREES CLAVIER UNIQUEMENT EN CHAINE DE CARACTERE !!!\n\t-> ex: prénom = input('quel est votre prénom?')")
 print("\ttype() -> retourne le type d'une donnée, variable, etc...")
 print("\tint(), float(), str(), bool() -> caster, convertir une donnée, variable...")
 print(" ")
