@@ -43,3 +43,6 @@ print("\telse -> sinon\n\tsi la condition if n'est pas valider alors else (ex: e
 print(" ")
 print("\telif -> sinon si\n\tsi la condition if n'est pas  valider alors sinon si (ex: elif un == one:)")
 print("\tpass -> permet de quitter une condition")
+print(" ")
+print("Fonctions")
+print("\tdef -> définie/initialise la fonction (ex: def nom_de_la_fonction():)\n\tpour utiliser la fonction une fois qu'elle est définie -> nom_de_la_fonction()")
