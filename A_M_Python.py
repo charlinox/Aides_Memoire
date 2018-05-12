@@ -55,7 +55,7 @@ print("\twhile -> tant que la condition est valider, exécute les opérations qu
 print("\tfor -> pour chaque items dans cette liste fais ceci (ex: for item in a_list:)")
 print("Méthodes")
 print("Chaine de caractères")
-print("\texemple.slit() | (exemple est le nom de la variable) ->  créer une liste a partir d'une chaine de caractères")
+print("\texemple.split() | (exemple est le nom de la variable) ->  créer une liste a partir d'une chaine de caractères")
 print("\texemple.strip() -> supprime tout les espaces blanc d'une chaîne de caractères suituer au début ou a la fin")
 print("\texemple.upper() -> met tout les mots d'une chaine de caractères en majuscule")
 print("\texemple.lower() -> met tout les mots d'une chaine de caractères en minuscule")
