@@ -63,8 +63,32 @@ plusieurs lignes*/
     FOREIGN KEY('colonne') REFERENCES 'table_references'('colonne') --> Clé étrangère, pour faire une relation avec une autre table
     
     CREATE INDEX 'idx_users' ON 'table_users'('user_name', 'user_birthday'); --> création d'un index pour améloirer la recherche lors d'une requête
-    
-
-    
+        
 -- Pour arrêter d'utiliser une BDD et revenir au début:
     USE MYSQL;
+
+-- Voir les utilisateurs sur le système de BDD (MySQL):
+    SELECT USER FROM mysql.user;
+    
+-- Voir l'utilisateur en cours:
+    SELECT current_user();
+    
+-- Créer un utilisateur pour MySQL:
+    CREATE USER 'user'@'hôte' IDENTIFIED BY 'mot_de_passe';
+    
+-- Changer un mot de passe utilisateur:
+    ALTER USER 'user'@'hôte' IDENTIFIED BY 'nouveau_MDP';
+    
+-- Gérer les droits utilisateur:
+    GRANT privilege_voulu ON database.* TO 'user'@'hôte';       --> Attribuer des droits (voir tableau des privilèges)
+    REVOKE privilege_voulu ON database.* FROM 'user'@'hôte';    --> Retirer des droits (voir tableau des privilèges)
+    
+-- Charger un script .sql:
+    SOURCE /chemin/du/script/sql;
+    
+-- Récuperer / sélectionner / lire des données:
+    SELECT 'champs_de_la_table' FROM 'table';
+    SELECT DISTINCT ... FROM ...;               --> DISTINCT pour éviter des doublons dans les résultats
+    
+
+
