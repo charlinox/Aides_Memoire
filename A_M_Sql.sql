@@ -62,7 +62,7 @@ plusieurs lignes*/
 
 -- Altérer / Modifier une table:
     ALTER TABLE 't_users'
-        ADD 'user_point' TINYINT(2)                 -- Ajouter une colonne (2 est la longeur maximum du chiffre (99))
+        ADD COLUMN 'user_point' TINYINT(2)                 -- Ajouter une colonne (2 est la longeur maximum du chiffre (99))
         DROP 'user_point'                           -- Supprimer une colonne
         MODIFY 'id_user' SMALLINT                   -- Modifie une colonne
         CHANGE 'user_birthday' 'user_birth' DATE;   -- Change un élément par un autre
