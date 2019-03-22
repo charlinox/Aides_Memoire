@@ -212,6 +212,16 @@ plusieurs lignes*/
     -- POUR D'AUTRE TYPE DE  RECHERCHE SE RÉFÉRER AU COURS D'OC
 
 
+-- Jointure:
+    -- Interne:
+    SELECT Espece.description           --> Sélectionne la colonne description de la table Espece
+    FROM Espece                         --> Je travail sur la talbe espece
+    INNER JOIN Animal                   --> Je la joins (une jointure interne) à la table Animal
+        ON Espece.id = Animal.espece_id --> La jointure se fait sur les colonnes id de la tables Espece et espece_id de la table Animal, qui doivent donc correspondre.
+    WHERE Animal.nom = 'Cartouche';     --> Dans la table résultant de la jointure, je sélectionne les lignes qui ont la valeur 'cartouche' dans la colonne nom venant de la table Animal.
+    
+
+
 -- Sauvegarder une base de données:
     -- HORS DU PROMPT MYSQL (DANS UN TERMINAL CLASSIQUE):
     'mysqldump -u user -p --opt nom_de_la_base > sauvegarde.sql'
