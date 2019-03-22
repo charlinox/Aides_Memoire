@@ -1,0 +1,50 @@
+<!--Aide mémoire HTML-->
+
+<!--Balise minimum pour un fichier html-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="A_M_CSS.css" /> <!-- Balise <link> pour référencé le fichier css et donc mettre en forme le code htlm avec du css (href="fichier.css") -->
+        <title>Titre de la page</title>
+    </head>
+    <body>
+        <!-- les balises <h1> à <h6> sont des balises de titre -->
+        <h1 id="titre">Titre super important</h1>
+        <h2 id="soustitre">Titre important</h2>
+        <h3 id="soussoustitre">Titre un peu moins important (sous-titre)</h3>
+
+        <h4>Titre pas trop important</h4>
+        <h5>Titre pas important</h5>
+        <h6>Titre pas du tout important</h6>
+
+        <!-- <p></p> est une balise pour dire que se qui se trouve entre, est un paragraphe -->
+        <p>Bonjour et bienvenue sur mon site :<br />    <!-- <br /> est une balise de retour a la ligne -->
+            Ceci est mon <em>premier</em> <strong>test</strong> d'affichage de <mark>texte</mark></p>   <!-- Balise <em> = italique || <strong> = gras || <mark> = surligner (par defaut en jaune) -->
+        
+        <!-- Balise <ul> défini une liste a puce a POINT et la balise <li> veut dire que sont contenu est une puce -->
+        <ul>
+            <li>Fraise</li>
+            <li>Framboise</li>
+            <li>Mangue</li>
+        </ul>
+
+        <!-- Balise <ul> défini une liste a puce a NUMÉROTER et la balise <li> veut dire que sont contenu est une puce -->
+        <ol>
+            <li>Fraise</li>
+            <li>Framboise</li>
+            <li>Mangue</li>
+        </ol>
+
+        <!-- Lien hypertexte, balise <a href="url">TexteDuLien</a> LA BALISE <a> POSSEDE PLIEN D'ATTRIBUTS, VOIR LE COURS SUR OpenClassrooms "créez des liens" (POUR TÉLÉCHARGER DES FICHIERS, METTRE DES ANCRES...) -->
+        <!-- class="" sert a préciser une classe|id qui servira de référence pour le code CSS -->
+        <p class="lienOpenClassrooms">Voici un site web qui propose beaucoup de cours informatique, il s'appel <a href="https://openclassrooms.com">OpenClassrooms</a>. <br />
+        C'est un superbe site web</p>
+
+        <!-- Afficher des photos LES PHOTOS DOIVENT ETRE DANS UNE BALISE DE CONTENEUR (<p> par exemple) -->
+        <p>Voici une image: (l'image ne s'affiche pas car j'ai pas fais de dossier et j'ai aucune image dans le dossier du script)<br />
+        <img src="image.jpg" alt="courte description de l'image" />
+        </p>
+    </body>
+</html>
+

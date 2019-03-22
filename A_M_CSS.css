@@ -1,0 +1,35 @@
+h1 /* les balises html <h1> seront verte */
+{
+    color: green;
+}
+
+#titre /* l'élément qui contient l'id titre sera centrer */
+{
+    text-align: center;
+}
+
+#soustitre
+{
+    text-align: left;
+}
+
+#soussoustitre
+{
+    text-align: right;
+}
+
+p /* les balises html <p> seront bleue */
+{
+    color: blue;
+    font-size: 20px; /* La taille de la police sera de 20 pixels */
+}
+
+ol, ul /* les balises html <ol> et <ul> seront orange foncé */
+{
+    color: orangered;
+}
+
+.lienOpenClassrooms /* l'élément qui contient la classe "lienOpenClassrooms" dans le html sera de couleur violet */
+{
+    color: purple;
+}
