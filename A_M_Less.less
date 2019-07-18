@@ -1,0 +1,78 @@
+/*
+Pour activer le LESS sur une page html;
+<link rel='stylesheet/less' type='text/css' href="styles.less">
+
+Télécharger less.js "http://lesscss.org/#download-options"
+
+Pour plus d'infos voir https://openclassrooms.com/fr/courses/1281906-simplifiez-vous-la-vie-avec-less
+                       http://lesscss.org/#docs
+*/
+
+/* ############################################################################ */
+
+// Constante | Déclaration
+@blue: #17B6FF;
+@magenta: #FF17B6;
+@green: green;
+
+// Utilisation
+#header
+{
+    background-color: @blue;
+}
+
+#footer
+{
+    background: @magenta;
+}
+/* ############################################################################ */
+/* ############################################################################ */
+
+// Classe abstraites | Définition
+.border-radius {
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+// Utilisation
+#bouton
+{
+    .border-radius;
+}
+/* ############################################################################ */
+/* ############################################################################ */
+
+// Classe abstraites avec paramètre | Définition
+.border-radius(@radius){
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}
+
+// Utilisation
+#bouton
+{
+    .border-radius(20px);
+}
+/* ############################################################################ */
+/* ############################################################################ */
+
+// Classe abstraites avec paramètre par défaut | Définition
+.border-radius(@radius: 30px){
+    -moz-border-radius: @radius;
+    -webkit-border-radius: @radius;
+    border-radius: @radius;
+}
+
+// Utilisation
+#bouton
+{
+    .border-radius(20px);
+    // ou alors
+    .border-radius; // la valeur utiliser ici sera celle définit par defaut (30px)
+}
+/* ############################################################################ */
+/* ############################################################################ */
+
+// BIEN D'AUTRE CHOSE SONT POSSIBLE EN FONCTION DU CONTEXT
